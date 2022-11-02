@@ -5,3 +5,5 @@ const AllExpenses = () => {
 };
 
 export default AllExpenses;
+
+const styles = StyleSheet.create({});
