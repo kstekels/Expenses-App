@@ -1,7 +1,7 @@
-import { View, StyleSheet, Text } from "react-native";
-import ExpensesList from "./ExpensesList";
-import ExpensesSummary from "./ExpensesSummary";
-import { GlobalStyles } from "../../constants/styles";
+import { View, StyleSheet, Text } from 'react-native';
+import ExpensesList from './ExpensesList';
+import ExpensesSummary from './ExpensesSummary';
+import { GlobalStyles } from '../../constants/styles';
 
 const ExpensesOutput = ({ expenses, expensesPeriod, fallbackText }) => {
   let content = <Text style={styles.infotext}>{fallbackText}</Text>;
@@ -27,9 +27,9 @@ const styles = StyleSheet.create({
     backgroundColor: GlobalStyles.colors.primary700,
   },
   infotext: {
-    color: "white",
+    color: 'white',
     fontSize: 16,
-    textAlign: "center",
+    textAlign: 'center',
     marginTop: 32,
   },
 });
